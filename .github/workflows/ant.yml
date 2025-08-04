@@ -5,9 +5,9 @@ name: Java CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "app/src" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "app/src" ]
 
 jobs:
   build:
