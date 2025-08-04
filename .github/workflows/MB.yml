@@ -1,0 +1,16 @@
+name: Modules Builder
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Modules Builder
+        uses: OOM-WG/ROOT-Modules-Auto-Builder@v1
